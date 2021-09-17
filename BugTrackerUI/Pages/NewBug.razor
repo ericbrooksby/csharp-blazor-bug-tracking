@@ -5,9 +5,9 @@
 <EditForm OnValidSubmit="HandleValidSubmit" Model="AddBug">
     <DataAnnotationsValidator/>
     <ValidationSummary></ValidationSummary>
-    <InputText @bind-value="@AddBug.Title" placeholder="Enter Title"></InputText>
-    <InputText @bind-value="@AddBug.Description" placeholder="Enter Description"></InputText>
-    <InputText @bind-value="@AddBug.Priority" placeholder="Enter Priority"></InputText>
+    <InputText @bind-Value="@AddBug.Title" placeholder="Enter Title"></InputText>
+    <InputText @bind-Value="@AddBug.Description" placeholder="Enter Description"></InputText>
+    <InputText @bind-Value="@AddBug.Priority" ></InputText>
     <button type="submit">Add Bug</button>
 </EditForm>
 
